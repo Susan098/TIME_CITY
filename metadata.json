@@ -1,0 +1,7 @@
+{
+  "name": "TIME CITY: Echoes of Time",
+  "description": "An epic 2D adventure-platformer with 30 levels across Nepal's Valley of Time, Chrono Metropolis, and The Lost World. Switch between Past, Present, and Future to solve puzzles, defeat bosses, and restore the timeline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

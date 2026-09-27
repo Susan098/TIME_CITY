@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+
+  .font-display {
+    font-family: var(--font-cinzel);
+  }
+}
+
+/* Animations for timeline transitions and time glow */
+@keyframes timePulseRing {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.animate-time-pulse {
+  animation: timePulseRing 1.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
